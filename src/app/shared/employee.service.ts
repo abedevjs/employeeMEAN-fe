@@ -11,7 +11,8 @@ export class EmployeeService {
   selectedEmployee!: Employee;
   employees!: Employee[];
 
-  readonly baseURL = 'http://localhost:8000/employees'
+  // readonly baseURL = 'http://localhost:8000/employees';
+  readonly baseURL = 'https://employee-mean-be-ex4c.vercel.app/employees';
 
   constructor(private http: HttpClient) { }
 
